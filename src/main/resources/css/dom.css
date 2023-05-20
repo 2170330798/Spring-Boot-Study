@@ -1,0 +1,44 @@
+
+table{
+           border: 1px solid #000;
+           border-collapse: collapse;
+           text-align: center;
+           margin: auto;
+           width: 500px;//固定表的宽度
+         }
+
+    table tr td{
+           border: 1px solid #000;
+           padding: 10px;//内边距四周空出10像素
+         }
+
+    table tr th{
+           border: 1px solid #000;
+           background-color: #cccccc;
+          }
+
+    .box{
+          width:50%;
+          margin-top:10%;
+          margin:auto;
+          padding:28px;
+          height:350px;
+          border:1px #111 solid;
+          display:none; //初始状态为隐藏，点击”增加订单“按钮后才会显示
+          text-align:center;
+          vertical-align:middle;
+        }
+
+    .box.show{
+          display:block;
+        }
+
+     .box input{
+           width:80%;
+           font-size:18px;
+           margin-top:18px;
+     }
+
+     #s1,#s2,#s3{
+           width: 200px;
+     }
